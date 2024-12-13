@@ -13,7 +13,6 @@ const Header = () => {
      
       <div className="logo">
         <img src="../../public/i.jpg" alt="Logo" className="h-16 w-16  rounded"/>
-        
       </div>
 
       <div className="lg:hidden flex items-center space-x-4">
@@ -73,10 +72,7 @@ const Header = () => {
             <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
-        {/* <a href="#" className="text-white hover:text-gray-400">Home</a>
-        <a href="#" className="text-white hover:text-gray-400">About</a>
-        <a href="#" className="text-white hover:text-gray-400">Services</a>
-        <a href="#" className="text-white hover:text-gray-400">Contact</a> */}
+        
       </nav>
     </header>
   );

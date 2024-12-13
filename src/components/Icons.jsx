@@ -1,10 +1,10 @@
-import React from 'react';
+
 import { FaFacebook, FaSnapchatGhost, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 
 const Icons = () => {
   return (
     <div className="flex justify-center space-x-8 mt-10">
-      {/* Facebook Icon */}
+      
       <a
         href="https://www.facebook.com"
         target="_blank"
@@ -14,7 +14,7 @@ const Icons = () => {
         <FaFacebook size={40} />
       </a>
 
-      {/* Snapchat Icon */}
+      
       <a
         href="https://www.snapchat.com"
         target="_blank"
@@ -24,7 +24,7 @@ const Icons = () => {
         <FaSnapchatGhost size={40} />
       </a>
 
-      {/* WhatsApp Icon */}
+      
       <a
         href="https://www.whatsapp.com"
         target="_blank"
@@ -34,7 +34,6 @@ const Icons = () => {
         <FaWhatsapp size={40} />
       </a>
 
-      {/* TikTok Icon */}
       <a
         href="https://www.tiktok.com"
         target="_blank"

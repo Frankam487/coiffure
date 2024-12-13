@@ -42,8 +42,8 @@ const Footer = () => {
       <div className="contact">
         <h2>Contact</h2>
        <div className="infos">
-         <h4><a href='mailto:fkamgang06@gmail.com' target='_blank'>fkamgang06@gmail.com</a></h4>
-        <h3>+41 78 301 52 98</h3>
+         <h4><a href='mailto:mfokamkemgne@icloud.com' target='_blank'>mfokamkemgne@icloud.com</a></h4>
+        <h3>0000000000</h3>
        <Icons/>
        </div>
       </div>
