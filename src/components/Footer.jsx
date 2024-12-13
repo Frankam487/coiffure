@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="ok">
 
           <li>
-            <NavLink to="">Seidenweg 5</NavLink>
+            <NavLink to="">6423</NavLink>
           </li>
           <li>
-            <NavLink style={{textAlign: 'center'}} to="">3012 Berne</NavLink>
+            <NavLink style={{textAlign: 'center'}} to="">Schwyz</NavLink>
           </li>
           </div>
         </ul>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
          
         <span className='trois'>Samedi, <br /> 
-        8h30 - 17h00</span>
+        9h30 - 17h00</span>
      </div>
       
       </div>
