@@ -1,11 +1,48 @@
 import React from 'react';
+import { FaFacebook, FaSnapchatGhost, FaWhatsapp, FaTiktok } from 'react-icons/fa';
 
 const Icons = () => {
   return (
-    <div className='icons'>
-      <i className="bi bi-facebook"></i>
-      <i className="fas fa-google"></i>
-      <i className="fas fa-github"></i>
+    <div className="flex justify-center space-x-8 mt-10">
+      {/* Facebook Icon */}
+      <a
+        href="https://www.facebook.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
+      >
+        <FaFacebook size={40} />
+      </a>
+
+      {/* Snapchat Icon */}
+      <a
+        href="https://www.snapchat.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-yellow-500 hover:text-yellow-700 transition-colors duration-300"
+      >
+        <FaSnapchatGhost size={40} />
+      </a>
+
+      {/* WhatsApp Icon */}
+      <a
+        href="https://www.whatsapp.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-green-500 hover:text-green-700 transition-colors duration-300"
+      >
+        <FaWhatsapp size={40} />
+      </a>
+
+      {/* TikTok Icon */}
+      <a
+        href="https://www.tiktok.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-black hover:text-gray-700 transition-colors duration-300"
+      >
+        <FaTiktok size={40} />
+      </a>
     </div>
   );
 };

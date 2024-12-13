@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { NavLink } from 'react-router-dom';
 import Icons from './Icons';
 
@@ -44,11 +44,7 @@ const Footer = () => {
        <div className="infos">
          <h3>example@gmail.com</h3>
         <h3>+41 78 301 52 98</h3>
-         <div className='icons'>
-      <i className="bi bi-facebook"></i>
-      <i className="fas fa-google"></i>
-      <i className="fas fa-github"></i>
-    </div>
+       <Icons/>
        </div>
       </div>
     </div>
