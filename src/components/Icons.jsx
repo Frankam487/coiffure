@@ -16,7 +16,7 @@ const Icons = () => {
 
       
       <a
-        href="https://www.snapchat.com"
+        href="https://www.snapchat.com/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-yellow-500 hover:text-yellow-700 transition-colors duration-300"
