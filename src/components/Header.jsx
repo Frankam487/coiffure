@@ -12,7 +12,7 @@ const Header = () => {
     <header className="flex justify-between items-center p-4 text-white">
      
       <div className="logo">
-        <img src="../../public/i.jpg" alt="Logo" className="h-16 w-16  rounded-lg"/>
+        <img src="../../public/i.jpg" alt="Logo" className="h-16 w-16  rounded"/>
         
       </div>
 
@@ -27,7 +27,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Menu Dropdown pour mobile */}
       <div
         className={`lg:hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center transform transition-all duration-300 ${
           isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
