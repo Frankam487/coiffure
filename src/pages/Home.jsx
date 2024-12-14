@@ -9,8 +9,6 @@ const Home = () => {
         <h1>Bienvenue chez nous <br />
         Nous vous rendons la vie facile
         </h1>
-        
-        
       </div>
       <Footer/>
     </div>

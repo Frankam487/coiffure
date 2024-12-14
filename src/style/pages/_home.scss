@@ -1,7 +1,7 @@
 .home {
   font-family: 'cursive';
   .home-content {
-    background: linear-gradient(to bottom, #ffffff , cyan 110%);
+    background: linear-gradient(to bottom, #ffffff , rgb(180, 191, 201) 110%);
     z-index: -100;
    
 
@@ -20,5 +20,6 @@
     padding: 12rem 0;
     font-family: 'Allura';
     font-size: 4rem;
+    color: #2e3030;
   }
 }

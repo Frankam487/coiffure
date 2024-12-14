@@ -47,7 +47,7 @@ const Header = () => {
             <NavLink className="block text-white py-2 hover:text-gray-400" to="/about">A propos</NavLink>
           </li>
           <li>
-            <NavLink className="block text-white py-2 hover:text-gray-400" to="/reservation">Reservation</NavLink>
+            <NavLink className="block text-white py-2 hover:text-gray-400" to="/reservations">Reservation</NavLink>
           </li>
           <li>
             <NavLink className="block text-white py-2 hover:text-gray-400" to="/contact">Contact</NavLink>
