@@ -6,6 +6,9 @@ export default {
        animation: {
         'fade-in': 'fadeIn 1s ease-in-out',
       },
+      colors: {
+        'custom-gray': 'rgb(153, 153, 153)',
+      },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
